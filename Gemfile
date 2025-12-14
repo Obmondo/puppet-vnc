@@ -60,6 +60,7 @@ group :development do
   gem "rubocop-capybara", '~> 2.22.0',           require: false
   gem "rb-readline", '= 0.5.5',                  require: false, platforms: [:mswin, :mingw, :x64_mingw]
   gem "bigdecimal", '< 3.2.2',                   require: false, platforms: [:mswin, :mingw, :x64_mingw]
+  gem "rexml", ">= 3.3.9",                       require: false
 end
 group :development, :release_prep do
   gem "puppet-strings", '~> 4.0',         require: false
